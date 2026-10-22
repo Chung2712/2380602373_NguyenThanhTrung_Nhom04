@@ -1,0 +1,27 @@
+name: nguyenthanhtrung_smartguard_flutter
+description: SmartGuard - Flutter anti-theft monitoring MVP
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.11.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.6.0
+  flutter_secure_storage: ^11.2.0
+  sensors_plus: ^6.1.2
+  geolocator: ^14.1.1
+  mobile_scanner: ^7.4.2
+  qr_flutter: ^4.1.0
+  url_launcher: ^6.3.3
+  local_auth: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
